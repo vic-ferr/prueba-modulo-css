@@ -1,0 +1,28 @@
+ @import "abstract/variables";
+// @import "abstract/mixsins";
+// @import "abstract/funtions";
+
+// //base
+@import "base/typography";
+ @import "base/reset";
+
+// //components
+// @import "components/section";
+// @import "components/buttons";
+@import "components/svg";
+
+// //layout
+ @import "layout/seccion";
+ @import "layout/layout";
+ @import "layout/nav";
+ @import "layout/header";
+ @import "layout/footer";
+
+// //pages
+// @import "pages/home";
+
+// //themes
+// @import "themes/theme";
+
+// //vendors
+// @import "vendors/vendor";

@@ -1,0 +1,46 @@
+
+.rotando{
+    animation: rotando 10s linear infinite ;
+   transform-box: fill-box;
+    transform-origin: center;
+}
+
+@keyframes rotando{
+ 100%{ transform: rotate(360deg);}
+}
+
+.derecha-izquierda{
+    animation-name: derecha ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate ;
+}
+
+@keyframes derecha{
+    0%{ transform: translateX(0%); -webkit-transform: translateX(0%); -moz-transform: translateX(0%); -ms-transform: translateX(0%); -o-transform: translateX(0%); }
+    100%{ transform: translateX(13%); -webkit-transform: translateX(13%); -moz-transform: translateX(13%); -ms-transform: translateX(13%); -o-transform: translateX(13%); }
+}
+
+
+.svg4{
+
+    width: 50px;
+    height: 100px;
+}
+
+.div-svg{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  position: relative;
+    
+}
+.svg-cell{
+    width: 130px;
+    position: absolute;
+    bottom: 100px;
+}
+
+#svg2{
+    width: 100%;
+}
